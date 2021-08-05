@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="myscript.js"></script>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">-->
+<title>Personal Website</title>
+	
+</head>
+<body>
+	
+<div id="main">
+
+
+	<!--navigation bar-------------------------------->
+	<nav class="navbar">
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#main">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#contact-form"> Contact</a>
+</div>
+<div id="maiin">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+	<!--logo--->
+	<a href="#" class="logo">NATY</a>
+	<!--menu--------->
+	<div class="toggle"></div>
+	<ul class="menu">
+	<li class="active"><a href="#main" >Home</a></li>
+	<li><a href="#about">About</a></li>	
+	<li><a href="#skills">Skills</a></li>	
+	<li><a href="#education">Education</a></li>		
+	<li><a href="#contact-form">Contact</a></li>	
+	</ul>
+	
+	</nav>
+
+
+
+ <div id="banner">
+ 	  
+  <!--name--------------------------->
+	<div class="name">
+	<!--hello------->
+	<p >Hello</p>
+	<!--name--->
+	<h1 id= =am>I'm <font id=" naty" color="#f50">Natnael</font> Mekonnen</h1>
+	<!--details--------------->
+	<p class="details">studying in ASTU and i'm web developer </p>
+	  
+	
+		
+	</div>
+	<div class="pic">
+ 	  	<img src="pic1.jpg">
+ 	  </div>
+</div>
+</div>
+		<!--down arrow-------------->
+	<div class="black-line" ></div>
+	<input  class="dark" type="button" name="btn" onclick="changetheme()" value="change theme">
+	<!--social---------------->
+	<div class="social">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>	
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>	
+	</div>
+  <!--about----------------------->
+		<div id="about">
+	<!--text---------------------->
+	<div class="about-text">
+	<h1 id="abo">About Me</h1>
+	<h2 id="web"> web Developer</h2>
+	<p id="my">my name is  natnael mekonnen i am studying computer sceince and enginnering in ASTU
+	  </p>
+	  <P id="and"> and i have 1 year experience in web developemnet </P>
+            <p style="color: yellow" >my social media<p>
+	    </div>
+</div>
+	
+	<!-------------------------skills------------------->
+	<section id="skills">
+		<div class="all">
+		  
+				<div class="sright">
+					<div class="top1"><p id="html">HTML</p><p id="90">90%</p></div>
+					<div class="percent1">	
+					<div class="percent2"></div>
+					</div>
+					<div class="top2"><p id="css">CSS</p><p id="85">85%</p></div>
+					<div class="percent3">	
+						<div class="percent4">	</div>
+					</div>
+					<div class="top3"><p id="java">JAVA</p><p id="80">80%</p></div>
+					<div class="percent5">	
+						<div class="percent6">	</div>
+					</div>
+					<div class="top4"><p id="php">PHP</p><p id="p80">80%</p></div>
+					<div class="percent7">	
+						<div class="percent8">	</div>
+					</div>
+
+				</div>
+		
+             </div>
+	</section>
+	<!----------------------------------------- EDucation----------------------------------------------->
+	<section id="education">
+		<div class="main-edu">
+			<div class="prip">
+				<div class="pri1"> priparatory</div>
+				<div class="pri2"> BGIS SCHOOL</div>
+			</div>
+			<div class="high">
+				<div class="high1">HIgh school</div>
+				<div  class="high2">BGIS SCHOOL</div></div>
+			<div class="univ">
+				<div class="univ1"> UNIVERSITY</div>
+				<div class="univ2">ADAMA SCIENCE AND TECHNOLOGY UNIVERSITY</div>
+			</div>
+		</div>
+
+
+
+	</section>
+	<!-- --------------------------------- contact page------------------------------------------------>
+	<section id="contact-form">
+		<div id="main-address">
+		<div class="content">
+			<div class="left-address">
+			<div class="address1"><p id="addr">address <span id="addis"> ADDIS ABEBA</span></p></div>
+			<div class="address2"><p id="phone">Phone <span id="silk"> 0942167148</span></p></div>
+			<div class="address3"><p id="email">email<span id="ema"> @natymok1010@gmail.com</span></p></div>
+			  </div>
+			  <div class="right-address">
+			  	    <form name="myForm"  onsubmit="myfunc()" >
+			  	    	<input  id="name" type="text" name="name" placeholder="Name" class="namee" onchange="namecapital()"><br><br>
+			  	    	<input id="email" type="text" name=" email" placeholder="Email" ><br><br>
+			  	    	<textarea id="comment" name="comment" placeholder="Comment"></textarea><br><br>
+			  	    	<input type="submit" name="submit" value="Submit" id="submit">
+
+			  	    	
+			  	    </form>
+			         </div>
+		</div>
+	</div>
+	</section>
+  
+</body>
+</html>
