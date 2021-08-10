@@ -2,7 +2,7 @@
 
 
 
-//-------------------contact page validation
+//-------------------contact page validation js
 
 
 
@@ -23,10 +23,10 @@ function myfunc()
 }
 // --------------------  change theme-----------------------------------
 
-
 function changetheme()
-{document.body.style.background="lightblue";
- document.getElementById("about").style.background="lightblue";
+{ 
+ document.body.style.background="gray";
+ document.getElementById("about").style.background="gray";
  document.getElementById("main").style.background="lightblue";
  document.getElementById("abo").style.color="indigo";
  document.getElementById("web").style.color="black";
@@ -48,9 +48,10 @@ function changetheme()
  document.getElementById("silk").style.color="black";
  document.getElementById("ema").style.color="black";
 document.getElementById("submit").style.color="black";
-
-
 }
+
+
+
 //----------------------------capitalize name in input---------------------------
 
 
